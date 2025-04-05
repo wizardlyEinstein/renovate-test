@@ -1,0 +1,58 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: ollama
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ollama 
+  labels:
+    app.kubernetes.io/name: ollama 
+spec:
+  ports:
+    - port: 11434 
+      targetPort: 11434 
+      protocol: TCP
+      name: ollama 
+  selector:
+    app.kubernetes.io/name: ollama 
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ollama 
+  labels:
+    app.kubernetes.io/name: ollama 
+spec:
+  replicas: 1
+  revisionHistoryLimit: 3
+  strategy:
+    type: Recreate
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: ollama
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: ollama 
+    spec:
+      containers:
+        - name: ollama 
+          image: ollama/ollama
+          imagePullPolicy: IfNotPresent
+          ports:
+            - name: ollama 
+              containerPort: 11434 
+              protocol: TCP
+          volumeMounts:
+            - name: dotollama 
+              mountPath: /root/.ollama 
+      volumes:
+        - name: dotollama
+          hostPath:
+           path: /ssd/k3s/ollama/dotollama
+           type: Directory
+

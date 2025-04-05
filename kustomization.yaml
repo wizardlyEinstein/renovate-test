@@ -1,0 +1,9 @@
+images:
+- name: ollama/ollama 
+  newTag: 0.5.12 
+
+namespace: ollama 
+
+resources:
+- ollama.yaml 
+

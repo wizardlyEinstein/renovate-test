@@ -1,6 +1,9 @@
 images:
 - name: ollama/ollama 
   newTag: 0.0.0 
+- name: ghcr.io/open-webui/open-webui
+  newTag: v0.0.0
+
 
 namespace: ollama 
 

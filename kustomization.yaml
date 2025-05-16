@@ -1,6 +1,6 @@
 images:
 - name: ollama/ollama 
-  newTag: 0.0.0 
+  newTag: 0.7.0 
 - name: ghcr.io/open-webui/open-webui
   newTag: v0.0.0
 

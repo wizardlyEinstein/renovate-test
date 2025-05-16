@@ -1,0 +1,105 @@
+[{versioning:docker,separateMajorMinor:false,separateMinorPatch:false,branchPrefix:renovate/,semanticCommitType:chore,semanticCommitScope:deps,branchName:renovate/all,additionalBranchPrefix:,branchTopic:{{{groupSlug}}},commitMessage:{{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}},commitBody:null,commitMessagePrefix:null,commitMessageAction:Update,commitMessageTopic:{{{groupName}}},commitMessageSuffix:null,prTitle:null,groupName:all dependencies,groupSlug:all,labels:[],addLabels:[],prBodyDefinitions:{Package:{{{depNameLinked}}},Type:{{{depType}}},Update:{{{updateType}}},Current value:{{{currentValue}}},New value:{{{newValue}}},Change: -> ,Pending:{{{displayPending}}},References:{{{references}}},Package file:{{{packageFile}}},Age:{{#if newVersion}}[![age](https://developer.mend.io/api/mc/badges/age/{{datasource}}/{{replace '/' '%2f' packageName}}/{{{newVersion}}}?slim=true)](https://docs.renovatebot.com/merge-confidence/){{/if}},Adoption:{{#if newVersion}}[![adoption](https://developer.mend.io/api/mc/badges/adoption/{{datasource}}/{{replace '/' '%2f' packageName}}/{{{newVersion}}}?slim=true)](https://docs.renovatebot.com/merge-confidence/){{/if}},Passing:{{#if newVersion}}[![passing](https://developer.mend.io/api/mc/badges/compatibility/{{datasource}}/{{replace '/' '%2f' packageName}}/{{{currentVersion}}}/{{{newVersion}}}?slim=true)](https://docs.renovatebot.com/merge-confidence/){{/if}},Confidence:{{#if newVersion}}[![confidence](https://developer.mend.io/api/mc/badges/confidence/{{datasource}}/{{replace '/' '%2f' packageName}}/{{{currentVersion}}}/{{{newVersion}}}?slim=true)](https://docs.renovatebot.com/merge-confidence/){{/if}}},prBodyColumns:[Package,Type,Update,Change,Pending],prBodyNotes:[],repository:wizardlyEinstein/renovate-test,parentOrg:wizardlyEinstein,topLevelOrg:wizardlyEinstein,baseBranch:main,manager:kustomize,categories:[kubernetes],packageFile:kustomization.yaml,parentDir:,packageFileDir:,depName:ghcr.io/open-webui/open-webui,packageName:ghcr.io/open-webui/open-webui,currentValue:v0.0.0,datasource:docker,depType:Kustomization,sourceUrl:https://github.com/open-webui/open-webui,currentVersion:v0.0.0,isSingleVersion:true,newVersion:v0.6.9,newValue:v0.6.9,newMajor:0,newMinor:6,newPatch:9,updateType:minor,isMinor:true,depNameSanitized:ghcr.io-open-webui-open-webui,sourceRepoSlug:open-webui-open-webui,sourceRepo:open-webui/open-webui,sourceRepoOrg:open-webui,sourceRepoName:open-webui,recreateClosed:true,displayFrom:v0.0.0,displayTo:v0.6.9,prettyNewVersion:v0.6.9,depTypes:[Kustomization],displayPending:,prettyDepType:Kustomization,isGroup:true},{versioning:docker,separateMajorMinor:false,separateMinorPatch:false,branchPrefix:renovate/,semanticCommitType:chore,semanticCommitScope:deps,branchName:renovate/all,additionalBranchPrefix:,branchTopic:{{{groupSlug}}},commitMessage:{{{commitMessagePrefix}}} {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}},commitBody:null,commitMessagePrefix:null,commitMessageAction:Update,commitMessageTopic:{{{groupName}}},commitMessageSuffix:null,prTitle:null,groupName:all dependencies,groupSlug:all,labels:[],addLabels:[],prBodyDefinitions:{Package:{{{depNameLinked}}},Type:{{{depType}}},Update:{{{updateType}}},Current value:{{{currentValue}}},New value:{{{newValue}}},Change: -> ,Pending:{{{displayPending}}},References:{{{references}}},Package file:{{{packageFile}}},Age:{{#if newVersion}}[![age](https://developer.mend.io/api/mc/badges/age/{{datasource}}/{{replace '/' '%2f' packageName}}/{{{newVersion}}}?slim=true)](https://docs.renovatebot.com/merge-confidence/){{/if}},Adoption:{{#if newVersion}}[![adoption](https://developer.mend.io/api/mc/badges/adoption/{{datasource}}/{{replace '/' '%2f' packageName}}/{{{newVersion}}}?slim=true)](https://docs.renovatebot.com/merge-confidence/){{/if}},Passing:{{#if newVersion}}[![passing](https://developer.mend.io/api/mc/badges/compatibility/{{datasource}}/{{replace '/' '%2f' packageName}}/{{{currentVersion}}}/{{{newVersion}}}?slim=true)](https://docs.renovatebot.com/merge-confidence/){{/if}},Confidence:{{#if newVersion}}[![confidence](https://developer.mend.io/api/mc/badges/confidence/{{datasource}}/{{replace '/' '%2f' packageName}}/{{{currentVersion}}}/{{{newVersion}}}?slim=true)](https://docs.renovatebot.com/merge-confidence/){{/if}}},prBodyColumns:[Package,Type,Update,Change,Pending],prBodyNotes:[],repository:wizardlyEinstein/renovate-test,parentOrg:wizardlyEinstein,topLevelOrg:wizardlyEinstein,baseBranch:main,manager:kustomize,categories:[kubernetes],packageFile:kustomization.yaml,parentDir:,packageFileDir:,depName:ollama/ollama,packageName:ollama/ollama,currentValue:0.0.0,datasource:docker,depType:Kustomization,currentVersion:0.0.0,isSingleVersion:true,newVersion:0.7.0,newValue:0.7.0,releaseTimestamp:2025-05-15T00:44:02.554Z,newVersionAgeInDays:1,newMajor:0,newMinor:7,newPatch:0,updateType:minor,isMinor:true,depNameSanitized:ollama-ollama,recreateClosed:true,displayFrom:0.0.0,displayTo:0.7.0,prettyNewVersion:v0.7.0,depTypes:[Kustomization],displayPending:,prettyDepType:Kustomization,isGroup:true}]
+commit da6c3b6136a66324987de0f68d9822693e85400d
+Author: Leland Sindt <leland@sway.org>
+Date:   Thu May 15 21:52:24 2025 -0500
+
+    update all
+
+commit 8c0c6ad401538f6758dc05ed92cc8ee90acd9392
+Author: Leland Sindt <leland@sway.org>
+Date:   Thu May 15 21:49:02 2025 -0500
+
+    testing
+
+commit 79a37e2fb87d1b905985c02b63f9ce1b01075c61
+Author: Leland Sindt <leland@sway.org>
+Date:   Thu May 15 21:38:08 2025 -0500
+
+    testing
+
+commit cbc9793cebc302c715cacec9f22a7e8454649811
+Author: Leland Sindt <leland@sway.org>
+Date:   Thu May 15 21:21:53 2025 -0500
+
+    testing
+
+commit ff285476efa4c94832b55bc2004556d3adba9999
+Author: Leland Sindt <leland@sway.org>
+Date:   Thu May 15 21:14:58 2025 -0500
+
+    testing
+
+commit 54124c60f5b5bf4629aeeaf8cc8ab436cb05733a
+Author: Renovate Bot <renovate@whitesourcesoftware.com>
+Date:   Thu May 15 10:04:23 2025 +0000
+
+    Update ollama/ollama Docker tag to v0.7.0
+
+commit 8ddde246c7315b4632968f37dd74fc2e1e31c966
+Author: Renovate Bot <renovate@whitesourcesoftware.com>
+Date:   Mon May 5 10:04:18 2025 +0000
+
+    Update ollama/ollama Docker tag to v0.6.8
+
+commit 799b27bf8cf2271e3f770ecab91d09e37c3e4896
+Author: Renovate Bot <renovate@whitesourcesoftware.com>
+Date:   Fri May 2 10:04:22 2025 +0000
+
+    Update ollama/ollama Docker tag to v0.6.7
+
+commit fb2cecc039c2f3f4612b8108125c1031bfa15951
+Author: Renovate Bot <renovate@whitesourcesoftware.com>
+Date:   Sat Apr 19 10:01:14 2025 +0000
+
+    Update ollama/ollama Docker tag to v0.6.6
+
+commit 439f735db912339d19179a1615af7e1f9e985bf2
+Merge: da2c0ef 42a83fd
+Author: Leland Sindt <leland@sway.org>
+Date:   Sat Apr 12 17:08:47 2025 -0500
+
+    Merge pull request #2 from wizardlyEinstein/renovate/ollama-ollama-0.x
+    
+    Update ollama/ollama Docker tag to v0.6.5
+
+commit 42a83fd071940ae6008a1669373e6bb794d14ba6
+Author: Renovate Bot <renovate@whitesourcesoftware.com>
+Date:   Sat Apr 12 10:01:08 2025 +0000
+
+    Update ollama/ollama Docker tag to v0.6.5
+
+commit da2c0ef02f6f24d878d70945a3fd59562965b6ff
+Merge: 140565f 329657d
+Author: Leland Sindt <leland@sway.org>
+Date:   Sat Apr 5 16:01:19 2025 -0500
+
+    Merge pull request #1 from wizardlyEinstein/renovate/ollama-ollama-0.x
+    
+    Update ollama/ollama Docker tag to v0.6.4
+
+commit 329657d97942fe635a2b04798071128163d5b5c6
+Author: Renovate Bot <renovate@whitesourcesoftware.com>
+Date:   Sat Apr 5 21:00:45 2025 +0000
+
+    Update ollama/ollama Docker tag to v0.6.4
+
+commit 140565f9eceb6ac78ff2e0495f4d05b54f4d51a8
+Author: Leland Sindt <leland@sway.org>
+Date:   Sat Apr 5 15:55:53 2025 -0500
+
+    initial commit
+diff --git a/kustomization.yaml b/kustomization.yaml
+index 1318421..798e535 100644
+--- a/kustomization.yaml
++++ b/kustomization.yaml
+@@ -1,8 +1,8 @@
+ images:
+ - name: ollama/ollama 
+-  newTag: 0.0.0 
++  newTag: 0.7.0 
+ - name: ghcr.io/open-webui/open-webui
+-  newTag: v0.0.0
++  newTag: v0.6.9
+ 
+ 
+ namespace: ollama 
